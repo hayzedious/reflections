@@ -11,3 +11,6 @@ a commit make sense logically
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branching comes in handy when you are tying out a new experiment or a feature and you don't want to mess up the master branch
+
+How do the diagrams help you visualize the branch structure?
+visualization of the branch structure allowed me to understanding the way branching works in git. For instance, if you checkout a previous and make changes to that commit, if you switch afterwards back to the branch, the commits will be lost because git log has no reference to that node of commit

@@ -4,3 +4,10 @@ To track changes to files in a directory
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It allows you to add individual files to be committed
+
+How can you use the staging area to make sure you have one commit per logical change?
+You use git diff --stage to know exactly what changes you made against the last commit. This will influence the commit message and ensure 
+a commit make sense logically
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branching comes in handy when you are tying out a new experiment or a feature and you don't want to mess up the master branch
